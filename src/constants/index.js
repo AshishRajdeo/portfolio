@@ -67,6 +67,24 @@ const dockApps = [
     canOpen: true,
   },
   {
+    id: "figma",
+    name: "Designs",
+    icon: "figma.png",
+    canOpen: true,
+  },
+  {
+    id: "illustrator",
+    name: "illustrator",
+    icon: "illustrator.png",
+    canOpen: true,
+  },
+  {
+    id: "Photoshop",
+    name: "Photoshop",
+    icon: "photoshop.png",
+    canOpen: true,
+  },
+  {
     id: "trash",
     name: "Archive", // was "Trash"
     icon: "trash.png",
@@ -132,7 +150,7 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/AshishRajdeo",
   },
   {
     id: 2,
@@ -494,6 +512,9 @@ const INITIAL_Z_INDEX = 1000;
 
 const WINDOW_CONFIG = {
   finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  figma: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  illustrator: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  photoshop: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
