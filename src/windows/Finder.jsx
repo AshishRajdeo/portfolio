@@ -30,7 +30,8 @@ const Finder = () => {
                             setActiveLocation(item)}
                             className={clsx(item.id === activeLocation.id ? "active" : "not-active")}
                          >
-                            <img src={item.icon} className="w-4" alt={item.name} />
+                            <img src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/${item.icon?.replace(/^\.\/|^\//g, '')}`}
+                             className="w-4" alt={item.name} />
                             <p className="text-sm font-medium truncate">{item.name}</p>
                         </li>
                     ))}
@@ -58,7 +59,7 @@ const Finder = () => {
             className={item.position}
             onClick={() => openItem(item)}
             >
-                <img src={item.icon} alt={item.name} />
+                <img src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/${item.icon?.replace(/^\.\/|^\//g, '')}`} alt={item.name} />
                 <p>{item.name}</p>
             </li>            
         ))}

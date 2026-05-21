@@ -1,3 +1,5 @@
+
+
 const navLinks = [
   {
     id: 1,
@@ -34,6 +36,8 @@ const navIcons = [
     img: "/icons/mode.svg",
   },
 ];
+
+
 
 const dockApps = [
   {
@@ -266,7 +270,7 @@ const WORK_LOCATION = {
         {
           id: 2,
           name: "nike.com",
-          icon: "/images/safari.png",
+          icon: "./images/safari.png",
           kind: "file",
           fileType: "url",
           href: "https://www.youtube.com/watch?v=-pUPR2RZa-E&list=RD-pUPR2RZa-E&start_radio=1&t=39s",

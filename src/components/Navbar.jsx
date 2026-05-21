@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav>
         <div>
-            <img src="/images/logo.svg" alt="apple image" />
+            <img src={`${import.meta.env.BASE_URL}/images/logo.svg`} alt="apple image" />
             <p className="font-bold">Ashish Portfolio</p>
             <ul>
                 {
@@ -30,7 +30,7 @@ const Navbar = () => {
                 {
                     navIcons.map(({id, img}) => (
                         <li key={id}>
-                            <img src={img} className="icon-hover"
+                            <img src={`${import.meta.env.BASE_URL}${img}`} className="icon-hover"
                             alt={`icon-${id}`} />
                         </li>
                     )
