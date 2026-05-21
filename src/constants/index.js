@@ -99,21 +99,21 @@ const blogPosts = [
     title:
       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://www.youtube.com/watch?v=-pUPR2RZa-E&list=RD-pUPR2RZa-E&start_radio=1&t=39s",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
     title: "The Ultimate Guide to Mastering Three.js for 3D Development",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://www.youtube.com/watch?v=-pUPR2RZa-E&list=RD-pUPR2RZa-E&start_radio=1&t=39s",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
     title: "The Ultimate Guide to Mastering GSAP Animations",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://www.youtube.com/watch?v=-pUPR2RZa-E&list=RD-pUPR2RZa-E&start_radio=1&t=39s",
   },
 ];
 
@@ -157,21 +157,21 @@ const socials = [
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://www.linkedin.com/in/ashishrajdeo/",
   },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://x.com/",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/ashishrajdeo/",
   },
 ];
 
@@ -269,7 +269,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://www.youtube.com/watch?v=-pUPR2RZa-E&list=RD-pUPR2RZa-E&start_radio=1&t=39s",
           position: "top-10 right-20",
         },
         {
@@ -322,7 +322,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://www.youtube.com/watch?v=-pUPR2RZa-E&list=RD-pUPR2RZa-E&start_radio=1&t=39s",
           position: "top-20 left-20",
         },
         {
@@ -375,7 +375,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://www.youtube.com/watch?v=-pUPR2RZa-E&list=RD-pUPR2RZa-E&start_radio=1&t=39s",
           position: "top-10 right-20",
         },
         {
